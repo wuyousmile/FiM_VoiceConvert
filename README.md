@@ -6,7 +6,9 @@
 
 
 **VoiceConvert**专门用于iOS音频文件转换,[amrToWav|wavToAmr],判断文件是否是mp3文件[isMP3File],判断文件是否是arm文件[isAMRFile].代码是从腾讯IMDemo里拿出来的,单独拿出来做成pod,这样也能够方便大家使用pod单独集成该功能模块。
-集成是参照美洽客服SDK【https://github.com/Meiqia/MeiqiaSDK-iOS/blob/master/Meiqia.podspec】
+
+
+之前编译报错，后来参照美洽客服SDK中的.podspec文件解决编译错误【https://github.com/Meiqia/MeiqiaSDK-iOS/blob/master/Meiqia.podspec】
 万分感谢！
 
 ### pod
