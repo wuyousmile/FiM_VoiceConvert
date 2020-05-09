@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     iOS音频文件转换.
     DESC
     
-    s.homepage         = 'https://github.com/zhuyuhui434@gmail.com/FiMVoiceConvert'
+    s.homepage         = 'https://github.com/FirstMen/FiMVoiceConvert'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'zhuyuhui434@gmail.com' => 'zhuyuhui434@gmail.com' }
-    s.source           = { :git => 'https://github.com/zhuyuhui434@gmail.com/FiMVoiceConvert.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/FirstMen/FiMVoiceConvert.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '8.0'
