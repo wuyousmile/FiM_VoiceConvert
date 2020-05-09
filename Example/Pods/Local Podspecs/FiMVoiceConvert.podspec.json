@@ -1,0 +1,29 @@
+{
+  "name": "FiMVoiceConvert",
+  "version": "0.1.0",
+  "summary": "A short description of FiMVoiceConvert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhuyuhui434@gmail.com/FiMVoiceConvert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhuyuhui434@gmail.com": "zhuyuhui434@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zhuyuhui434@gmail.com/FiMVoiceConvert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "private_header_files": "FiMVoiceConvert/**/amrwapper/wav.h",
+  "source_files": "FiMVoiceConvert/**/*.{h,m,mm}",
+  "vendored_libraries": [
+    "FiMVoiceConvert/**/libopencore-amrnb.a",
+    "FiMVoiceConvert/**/libopencore-amrwb.a"
+  ],
+  "frameworks": "AVFoundation",
+  "libraries": "stdc++"
+}

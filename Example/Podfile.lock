@@ -1,0 +1,16 @@
+PODS:
+  - FiMVoiceConvert (0.1.0)
+
+DEPENDENCIES:
+  - FiMVoiceConvert (from `../`)
+
+EXTERNAL SOURCES:
+  FiMVoiceConvert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FiMVoiceConvert: 2229c3af8c8fccc9e22c913e5643d42a22afe459
+
+PODFILE CHECKSUM: f3f2e3b695b924cafc40962ac68d8b80e35299ed
+
+COCOAPODS: 1.9.1

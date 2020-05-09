@@ -1,0 +1,6 @@
+framework module Pods_FiMVoiceConvert_Example {
+  umbrella header "Pods-FiMVoiceConvert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

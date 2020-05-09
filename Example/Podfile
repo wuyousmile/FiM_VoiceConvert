@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FiMVoiceConvert_Example' do
+  pod 'FiMVoiceConvert', :path => '../'
+#pod 'VoiceConvert',:git => "https://github.com/AwakenDragon/VoiceConvert.git"
+#  pod 'Meiqia', '~> 3.5.0'
+  target 'FiMVoiceConvert_Tests' do
+      inherit! :search_paths
+
+    
+  end
+end
