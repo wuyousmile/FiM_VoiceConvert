@@ -17,6 +17,6 @@
 #import "dec_if.h"
 #import "if_rom.h"
 
-FOUNDATION_EXPORT double FiMVoiceConvertVersionNumber;
-FOUNDATION_EXPORT const unsigned char FiMVoiceConvertVersionString[];
+FOUNDATION_EXPORT double FiM_VoiceConvertVersionNumber;
+FOUNDATION_EXPORT const unsigned char FiM_VoiceConvertVersionString[];
 

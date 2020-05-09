@@ -1,16 +1,16 @@
 PODS:
-  - FiMVoiceConvert (0.1.0)
+  - FiM-VoiceConvert (0.1.0)
 
 DEPENDENCIES:
-  - FiMVoiceConvert (from `../`)
+  - FiM-VoiceConvert (from `../`)
 
 EXTERNAL SOURCES:
-  FiMVoiceConvert:
+  FiM-VoiceConvert:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FiMVoiceConvert: 2229c3af8c8fccc9e22c913e5643d42a22afe459
+  FiM-VoiceConvert: ba73dd224a969da29f1d339d85d2827123956790
 
-PODFILE CHECKSUM: f3f2e3b695b924cafc40962ac68d8b80e35299ed
+PODFILE CHECKSUM: bd45e31bf91fd5021041d538593f75727a331fff
 
 COCOAPODS: 1.9.1

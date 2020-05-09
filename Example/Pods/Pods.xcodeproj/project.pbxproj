@@ -7,36 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9B081CA895B0D4DDE112904C85D896 /* FiMVoiceConvert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C45B0DA40D8E3DD51CA8F11370A917EC /* FiMVoiceConvert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0EDB6460902F3EC017FDD4AB828F23 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = BEFF08B6E6D60C96A80C7E50D6EBA619 /* wav.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1AA0ED0CBAB5D034CF71C9C6A32AB848 /* EMVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B32498EA208C9900E5D4146DD3DF1F1 /* EMVoiceConverter.mm */; };
+		1BC56505922E1FF5F71BB44193AC670A /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3B363F57DFAA453FC75F7F7D208E35 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		204585A02B42BEE6DFE831FD3FEAF69B /* Pods-FiMVoiceConvert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1726591DBBDAD8C725476B85B31FDA /* Pods-FiMVoiceConvert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2147B74FC355D85B6F0886492DEB9B8B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07B0E7D8EDD7E883339D7E8FA65819E /* AVFoundation.framework */; };
 		2A86E39A6B836F06C88895335D921790 /* Pods-FiMVoiceConvert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E00F4CBB190A486721B3A246E0C2EF0C /* Pods-FiMVoiceConvert_Tests-dummy.m */; };
-		2D6378C1EA6215DE93BB3AEB7B936C81 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 002FF003D3E645DCFEC622E82D138CD4 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32D7D3D6B007BE0BB81B595855FD26E8 /* Pods-FiMVoiceConvert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650187DAB5C500B2076AF5E0DB829D9 /* Pods-FiMVoiceConvert_Example-dummy.m */; };
-		4D7DF18D604C3132998632DE7F86F585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */; };
-		4D9D9A119A7745CE11FC246C7B7EF5B5 /* Pods-FiMVoiceConvert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1726591DBBDAD8C725476B85B31FDA /* Pods-FiMVoiceConvert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		560398896402EC3A4C684F9B88D7A750 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51869E52C64214D8B429DFA3487CEF3E /* amrFileCodec.mm */; };
-		5AB633F8C9B442BFFBAF46779D284B9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07B0E7D8EDD7E883339D7E8FA65819E /* AVFoundation.framework */; };
-		72C3D327563BB377789786CA5AC2892F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */; };
-		764E9FF10F35E553E93B373EEFDE5242 /* EMVoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F6C9E9DF3CA943BA7507590A32CCC /* EMVoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EEEB288F25EC0204209186CC015B25A /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 740A764EF0D11460CBFF4EEC93EF2C8C /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B38562B02323CB80413CD066820A3FA /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 295DB55F15A855034CB119A99D2864D4 /* amrFileCodec.mm */; };
+		4F5A3A7A91304BC8D5893C3CA9811730 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE672A0E7A97CA627A7FA89F0FF425D0 /* wav.mm */; };
+		53B6144E6FD2E7E2D086C38173572924 /* EMVoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7462AEA33A2A2D469BA5A46DDC4D702 /* EMVoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5471E5AB0017F0CCD80DC7210BF00D93 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = E14F2768B031981F54347953C1CCE014 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632B74FB0564F1C84ECA2E10FDBAF44D /* Pods-FiMVoiceConvert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650187DAB5C500B2076AF5E0DB829D9 /* Pods-FiMVoiceConvert_Example-dummy.m */; };
+		81D8BF986C5554FBB8AF365253DFA595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */; };
+		8D17F41A9735200784DDDE82BE8E1FA7 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 94664319883F3F168A34BFBBDE97BB1E /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94E18E1CB38EB72AF34353822C69B2D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */; };
-		9A456E39D153D9F29940CC4A20311386 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE35A6BA39A6ECDE1DE7DDCD0640D7C /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A22DB139BFCA511CE0A5689E0E40D496 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = A690D32D31205C1F6E046CAA86BDFB23 /* wav.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A6864BAC0879AAC396B97E66A642C964 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC8E942CCE1C41286096BE2B826292A /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB21FE786B548BA5FF0BA5BC3D481261 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDF11C6A7E0B478093006E402203EA8E /* wav.mm */; };
-		CA391FF7DFCF893926757867B00A7FA6 /* FiMVoiceConvert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF974A9055B0CAED979EA36718648D /* FiMVoiceConvert-dummy.m */; };
+		D1FE873D28990B40A99674444AC63BFA /* FiM-VoiceConvert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E28B236405B1E80AD41D2619A13B26C2 /* FiM-VoiceConvert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC442112C178B8FD8BF6E7F9380AD3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */; };
 		E58A3C365DA75886FDF39A7D3D9DACEC /* Pods-FiMVoiceConvert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF289A0C41E1FE2E728B694FE4215FA /* Pods-FiMVoiceConvert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F76C623EA178041F43E0983CEBB9654D /* EMVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFD20BBA73A8EF98A8654BEA1ACD8B73 /* EMVoiceConverter.mm */; };
-		F8BBEA06B97DE4510AF200BA6E18FA48 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 316748DDECA7D81D6DAB517ABA83CE59 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFFC8082A1619363B2DE6CA18F0303C8 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D962ED57CDB9290A1EF34DFFFE671EF /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4CA67394102FCDFC9467E567DB39E9 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EB7C35438D67C3F2F233082855C78A /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6A3FD941CF7AF3FD5137B1F6634846 /* FiM-VoiceConvert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC115D04396AA01752C062D3289740 /* FiM-VoiceConvert-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09DBD91402A714F16BE63CCA9E77CC61 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D14E6D85B434154414BEDF022ACA9FB;
-			remoteInfo = FiMVoiceConvert;
-		};
 		6FD9DB81DED0AB522E107E67BC520FC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -44,71 +37,69 @@
 			remoteGlobalIDString = 39F63313DB749A71B9B337D3E16399DD;
 			remoteInfo = "Pods-FiMVoiceConvert_Example";
 		};
+		D93490417F0C6599B6A86636342A38E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E184FCEBC6FC5E001FBBAE25D32972D;
+			remoteInfo = "FiM-VoiceConvert";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002FF003D3E645DCFEC622E82D138CD4 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
-		05667E9A87AFCFE8F7109043D644C480 /* Pods_FiMVoiceConvert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FiMVoiceConvert_Example.framework; path = "Pods-FiMVoiceConvert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11ADEE0DE5628FA8516EE6F5FE074299 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		05667E9A87AFCFE8F7109043D644C480 /* Pods_FiMVoiceConvert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiMVoiceConvert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		126210655D6E581EF35FFA027D80BF13 /* Pods-FiMVoiceConvert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiMVoiceConvert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		195FB06BF4D3E7C193CFD608BDFEEC15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		197A99C8F93EC79D27DE3D187FA58CFD /* FiM-VoiceConvert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FiM-VoiceConvert-Info.plist"; sourceTree = "<group>"; };
 		1A4B131F0BADA4C4DA94826D762FA8A1 /* Pods-FiMVoiceConvert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiMVoiceConvert_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E52CCB4795D996E003AB56C5BD4254B /* FiMVoiceConvert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FiMVoiceConvert.debug.xcconfig; sourceTree = "<group>"; };
-		2191B67711867AAE7A099F19A109DC8E /* FiMVoiceConvert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FiMVoiceConvert-prefix.pch"; sourceTree = "<group>"; };
+		25C52162A576B95BF24B419FE4C20576 /* FiM_VoiceConvert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FiM_VoiceConvert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2650187DAB5C500B2076AF5E0DB829D9 /* Pods-FiMVoiceConvert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FiMVoiceConvert_Example-dummy.m"; sourceTree = "<group>"; };
-		2B9F6C9E9DF3CA943BA7507590A32CCC /* EMVoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVoiceConverter.h; path = FiMVoiceConvert/Classes/EMVoiceConverter.h; sourceTree = "<group>"; };
-		316748DDECA7D81D6DAB517ABA83CE59 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
-		45186495DCC2A94941C08464C8BB2FE7 /* Pods_FiMVoiceConvert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FiMVoiceConvert_Tests.framework; path = "Pods-FiMVoiceConvert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		295DB55F15A855034CB119A99D2864D4 /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		30EB7C35438D67C3F2F233082855C78A /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		45186495DCC2A94941C08464C8BB2FE7 /* Pods_FiMVoiceConvert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiMVoiceConvert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E475007F0C59EFCF5CA0378F018C35 /* Pods-FiMVoiceConvert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiMVoiceConvert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		484DDE10D8471E532AFF93B8276C8157 /* Pods-FiMVoiceConvert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FiMVoiceConvert_Example.modulemap"; sourceTree = "<group>"; };
+		4B32498EA208C9900E5D4146DD3DF1F1 /* EMVoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = EMVoiceConverter.mm; path = "FiM-VoiceConvert/Classes/EMVoiceConverter.mm"; sourceTree = "<group>"; };
 		4C45E61D1094452D8C9B3EF99E02FA66 /* Pods-FiMVoiceConvert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FiMVoiceConvert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		51869E52C64214D8B429DFA3487CEF3E /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
-		528890E86B86EBEDC760F00A45BEBAFA /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "FiMVoiceConvert/Classes/opencore-amrnb/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		522BCA3531956568AC852D5C59950CB6 /* FiM-VoiceConvert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "FiM-VoiceConvert.podspec"; sourceTree = "<group>"; tabWidth = 2; };
 		5A15F0501F23B876FB6AADF2CE2230D2 /* Pods-FiMVoiceConvert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FiMVoiceConvert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A1726591DBBDAD8C725476B85B31FDA /* Pods-FiMVoiceConvert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FiMVoiceConvert_Example-umbrella.h"; sourceTree = "<group>"; };
-		740A764EF0D11460CBFF4EEC93EF2C8C /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		5D962ED57CDB9290A1EF34DFFFE671EF /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		5FCC115D04396AA01752C062D3289740 /* FiM-VoiceConvert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FiM-VoiceConvert-dummy.m"; sourceTree = "<group>"; };
+		716DCE2507F2EC6A309B5C14FCCA3941 /* FiM-VoiceConvert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FiM-VoiceConvert.release.xcconfig"; sourceTree = "<group>"; };
 		754BABC9ABB5AD725D17A0B10927FE6E /* Pods-FiMVoiceConvert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FiMVoiceConvert_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7AE35A6BA39A6ECDE1DE7DDCD0640D7C /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		764BDB1A04E5C79FAD43784EF4580923 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "FiM-VoiceConvert/Classes/opencore-amrnb/libopencore-amrnb.a"; sourceTree = "<group>"; };
 		7AF52F4CBD9A3C45AD3022D8F788AE26 /* Pods-FiMVoiceConvert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FiMVoiceConvert_Tests-Info.plist"; sourceTree = "<group>"; };
 		7FC852CBDA2A53EAC17561588CA6D8E2 /* Pods-FiMVoiceConvert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiMVoiceConvert_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8AC8E942CCE1C41286096BE2B826292A /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A12848DAB6A4F090879B51043F921462 /* FiMVoiceConvert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FiMVoiceConvert.modulemap; sourceTree = "<group>"; };
-		A690D32D31205C1F6E046CAA86BDFB23 /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		80E7EEED88DED4C65B6DB1064FF09828 /* FiM-VoiceConvert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FiM-VoiceConvert.debug.xcconfig"; sourceTree = "<group>"; };
+		94664319883F3F168A34BFBBDE97BB1E /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3D2ACF9B495756A6A74DE30FB5B896 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "FiM-VoiceConvert/Classes/opencore-amrwb/libopencore-amrwb.a"; sourceTree = "<group>"; };
 		AEF289A0C41E1FE2E728B694FE4215FA /* Pods-FiMVoiceConvert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FiMVoiceConvert_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AFB7B39CFB8833328AFE28AB31BBC825 /* FiMVoiceConvert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FiMVoiceConvert-Info.plist"; sourceTree = "<group>"; };
-		AFD20BBA73A8EF98A8654BEA1ACD8B73 /* EMVoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = EMVoiceConverter.mm; path = FiMVoiceConvert/Classes/EMVoiceConverter.mm; sourceTree = "<group>"; };
 		B267DFC0E4182D14E81BA992A0EDFFA1 /* Pods-FiMVoiceConvert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FiMVoiceConvert_Tests.modulemap"; sourceTree = "<group>"; };
+		B7462AEA33A2A2D469BA5A46DDC4D702 /* EMVoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVoiceConverter.h; path = "FiM-VoiceConvert/Classes/EMVoiceConverter.h"; sourceTree = "<group>"; };
 		B997756A134AD2E6EDD041A52D725B51 /* Pods-FiMVoiceConvert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FiMVoiceConvert_Example-Info.plist"; sourceTree = "<group>"; };
-		BB2700661DB40099CB2557E1121ED6E8 /* FiMVoiceConvert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FiMVoiceConvert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C45B0DA40D8E3DD51CA8F11370A917EC /* FiMVoiceConvert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FiMVoiceConvert-umbrella.h"; sourceTree = "<group>"; };
-		CDF11C6A7E0B478093006E402203EA8E /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = wav.mm; sourceTree = "<group>"; };
-		DDF25F2A260AE60BF4C26D735818490B /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "FiMVoiceConvert/Classes/opencore-amrwb/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		BEFF08B6E6D60C96A80C7E50D6EBA619 /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		C4E32AB39134EAC91BD48CD9447CBBCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D76BF5257ED727944500B2F7367BF540 /* FiM-VoiceConvert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "FiM-VoiceConvert.modulemap"; sourceTree = "<group>"; };
+		DE672A0E7A97CA627A7FA89F0FF425D0 /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
 		E00F4CBB190A486721B3A246E0C2EF0C /* Pods-FiMVoiceConvert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FiMVoiceConvert_Tests-dummy.m"; sourceTree = "<group>"; };
 		E07B0E7D8EDD7E883339D7E8FA65819E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		E1FB2DEA5390A2C6441451D0B91E7B99 /* FiMVoiceConvert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FiMVoiceConvert.release.xcconfig; sourceTree = "<group>"; };
+		E14F2768B031981F54347953C1CCE014 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		E17FF87D5A91932B7AE1CC400B9E5B22 /* FiM-VoiceConvert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FiM-VoiceConvert-prefix.pch"; sourceTree = "<group>"; };
+		E28B236405B1E80AD41D2619A13B26C2 /* FiM-VoiceConvert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FiM-VoiceConvert-umbrella.h"; sourceTree = "<group>"; };
 		E36DD11315524845D680E6371F5F2EC7 /* Pods-FiMVoiceConvert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FiMVoiceConvert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6DF974A9055B0CAED979EA36718648D /* FiMVoiceConvert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FiMVoiceConvert-dummy.m"; sourceTree = "<group>"; };
 		E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F1728759CC2E8979D3EEF49B67AC7F63 /* FiMVoiceConvert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FiMVoiceConvert.framework; path = FiMVoiceConvert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D79EC6E1ACFEB490916EC546F0F6C4 /* Pods-FiMVoiceConvert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FiMVoiceConvert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC9697F8C22AB4704103E631843F17C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF3B363F57DFAA453FC75F7F7D208E35 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04A5AAAB3A9BA8C33333916083D03819 /* Frameworks */ = {
+		243568ADE51869F6CB51E6D2A8256668 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB633F8C9B442BFFBAF46779D284B9A /* AVFoundation.framework in Frameworks */,
-				72C3D327563BB377789786CA5AC2892F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78DD39895E60AFB3B60700D84547125D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D7DF18D604C3132998632DE7F86F585 /* Foundation.framework in Frameworks */,
+				81D8BF986C5554FBB8AF365253DFA595 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +108,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E18E1CB38EB72AF34353822C69B2D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC3DAD857823ADF9A18AB71E543D768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2147B74FC355D85B6F0886492DEB9B8B /* AVFoundation.framework in Frameworks */,
+				DC442112C178B8FD8BF6E7F9380AD3A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,84 +156,69 @@
 			path = "Target Support Files/Pods-FiMVoiceConvert_Tests";
 			sourceTree = "<group>";
 		};
-		3F2676CAAF69D8B5CA9A369A665847C1 /* opencore-amrwb */ = {
+		4715C62E9455F7998B0B53317E1D0FFF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				740A764EF0D11460CBFF4EEC93EF2C8C /* dec_if.h */,
-				316748DDECA7D81D6DAB517ABA83CE59 /* if_rom.h */,
+				B6989ED189ADE06F4ADCC754DD164BF9 /* FiM-VoiceConvert */,
 			);
-			name = "opencore-amrwb";
-			path = "FiMVoiceConvert/Classes/opencore-amrwb";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		46822CD05A0F05FB241AA412878F2ED8 /* Pod */ = {
+		4F8157EBAC33497438E6AD8D192DAC6A /* opencore-amrnb */ = {
 			isa = PBXGroup;
 			children = (
-				BB2700661DB40099CB2557E1121ED6E8 /* FiMVoiceConvert.podspec */,
-				11ADEE0DE5628FA8516EE6F5FE074299 /* LICENSE */,
-				195FB06BF4D3E7C193CFD608BDFEEC15 /* README.md */,
+				30EB7C35438D67C3F2F233082855C78A /* interf_dec.h */,
+				5D962ED57CDB9290A1EF34DFFFE671EF /* interf_enc.h */,
+			);
+			name = "opencore-amrnb";
+			path = "FiM-VoiceConvert/Classes/opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		84EF5A1FF4BDB069D324078D1A39DA9F /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				94664319883F3F168A34BFBBDE97BB1E /* amrFileCodec.h */,
+				295DB55F15A855034CB119A99D2864D4 /* amrFileCodec.mm */,
+				BEFF08B6E6D60C96A80C7E50D6EBA619 /* wav.h */,
+				DE672A0E7A97CA627A7FA89F0FF425D0 /* wav.mm */,
+			);
+			name = amrwapper;
+			path = "FiM-VoiceConvert/Classes/amrwapper";
+			sourceTree = "<group>";
+		};
+		915838283C477EA2DA636091CD5B5A2B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				522BCA3531956568AC852D5C59950CB6 /* FiM-VoiceConvert.podspec */,
+				C4E32AB39134EAC91BD48CD9447CBBCA /* LICENSE */,
+				FC9697F8C22AB4704103E631843F17C3 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		65F52B3375144F4BBB084AA21E067D79 /* Support Files */ = {
+		9EE041BCA9A59258071DBB2026D19508 /* opencore-amrwb */ = {
 			isa = PBXGroup;
 			children = (
-				A12848DAB6A4F090879B51043F921462 /* FiMVoiceConvert.modulemap */,
-				E6DF974A9055B0CAED979EA36718648D /* FiMVoiceConvert-dummy.m */,
-				AFB7B39CFB8833328AFE28AB31BBC825 /* FiMVoiceConvert-Info.plist */,
-				2191B67711867AAE7A099F19A109DC8E /* FiMVoiceConvert-prefix.pch */,
-				C45B0DA40D8E3DD51CA8F11370A917EC /* FiMVoiceConvert-umbrella.h */,
-				1E52CCB4795D996E003AB56C5BD4254B /* FiMVoiceConvert.debug.xcconfig */,
-				E1FB2DEA5390A2C6441451D0B91E7B99 /* FiMVoiceConvert.release.xcconfig */,
+				FF3B363F57DFAA453FC75F7F7D208E35 /* dec_if.h */,
+				E14F2768B031981F54347953C1CCE014 /* if_rom.h */,
+			);
+			name = "opencore-amrwb";
+			path = "FiM-VoiceConvert/Classes/opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		A48DEAA395F10F6BCE58251242E4B4EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D76BF5257ED727944500B2F7367BF540 /* FiM-VoiceConvert.modulemap */,
+				5FCC115D04396AA01752C062D3289740 /* FiM-VoiceConvert-dummy.m */,
+				197A99C8F93EC79D27DE3D187FA58CFD /* FiM-VoiceConvert-Info.plist */,
+				E17FF87D5A91932B7AE1CC400B9E5B22 /* FiM-VoiceConvert-prefix.pch */,
+				E28B236405B1E80AD41D2619A13B26C2 /* FiM-VoiceConvert-umbrella.h */,
+				80E7EEED88DED4C65B6DB1064FF09828 /* FiM-VoiceConvert.debug.xcconfig */,
+				716DCE2507F2EC6A309B5C14FCCA3941 /* FiM-VoiceConvert.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FiMVoiceConvert";
-			sourceTree = "<group>";
-		};
-		76B58A3969565F72F5D007592E1EB2B5 /* opencore-amrnb */ = {
-			isa = PBXGroup;
-			children = (
-				8AC8E942CCE1C41286096BE2B826292A /* interf_dec.h */,
-				7AE35A6BA39A6ECDE1DE7DDCD0640D7C /* interf_enc.h */,
-			);
-			name = "opencore-amrnb";
-			path = "FiMVoiceConvert/Classes/opencore-amrnb";
-			sourceTree = "<group>";
-		};
-		8ABF564F623D2358E43927BE8A640A89 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				528890E86B86EBEDC760F00A45BEBAFA /* libopencore-amrnb.a */,
-				DDF25F2A260AE60BF4C26D735818490B /* libopencore-amrwb.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8DA15FCDBC18993F92BEA4423820BC5C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F1728759CC2E8979D3EEF49B67AC7F63 /* FiMVoiceConvert.framework */,
-				05667E9A87AFCFE8F7109043D644C480 /* Pods_FiMVoiceConvert_Example.framework */,
-				45186495DCC2A94941C08464C8BB2FE7 /* Pods_FiMVoiceConvert_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9AC45AAD41167CD8643617FC4C7BFD1F /* FiMVoiceConvert */ = {
-			isa = PBXGroup;
-			children = (
-				2B9F6C9E9DF3CA943BA7507590A32CCC /* EMVoiceConverter.h */,
-				AFD20BBA73A8EF98A8654BEA1ACD8B73 /* EMVoiceConverter.mm */,
-				BF2924598C5D1A6244DE8224B5304F96 /* amrwapper */,
-				8ABF564F623D2358E43927BE8A640A89 /* Frameworks */,
-				76B58A3969565F72F5D007592E1EB2B5 /* opencore-amrnb */,
-				3F2676CAAF69D8B5CA9A369A665847C1 /* opencore-amrwb */,
-				46822CD05A0F05FB241AA412878F2ED8 /* Pod */,
-				65F52B3375144F4BBB084AA21E067D79 /* Support Files */,
-			);
-			name = FiMVoiceConvert;
-			path = ../..;
+			path = "Example/Pods/Target Support Files/FiM-VoiceConvert";
 			sourceTree = "<group>";
 		};
 		A92C127359C7325D7ED43FE30124D9DB /* iOS */ = {
@@ -245,16 +230,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BF2924598C5D1A6244DE8224B5304F96 /* amrwapper */ = {
+		B6989ED189ADE06F4ADCC754DD164BF9 /* FiM-VoiceConvert */ = {
 			isa = PBXGroup;
 			children = (
-				002FF003D3E645DCFEC622E82D138CD4 /* amrFileCodec.h */,
-				51869E52C64214D8B429DFA3487CEF3E /* amrFileCodec.mm */,
-				A690D32D31205C1F6E046CAA86BDFB23 /* wav.h */,
-				CDF11C6A7E0B478093006E402203EA8E /* wav.mm */,
+				B7462AEA33A2A2D469BA5A46DDC4D702 /* EMVoiceConverter.h */,
+				4B32498EA208C9900E5D4146DD3DF1F1 /* EMVoiceConverter.mm */,
+				84EF5A1FF4BDB069D324078D1A39DA9F /* amrwapper */,
+				E964BDFBEB551542CB32871FE0268141 /* Frameworks */,
+				4F8157EBAC33497438E6AD8D192DAC6A /* opencore-amrnb */,
+				9EE041BCA9A59258071DBB2026D19508 /* opencore-amrwb */,
+				915838283C477EA2DA636091CD5B5A2B /* Pod */,
+				A48DEAA395F10F6BCE58251242E4B4EA /* Support Files */,
 			);
-			name = amrwapper;
-			path = FiMVoiceConvert/Classes/amrwapper;
+			name = "FiM-VoiceConvert";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BD686B652B4449315A9800A0CB4E106A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C52162A576B95BF24B419FE4C20576 /* FiM_VoiceConvert.framework */,
+				05667E9A87AFCFE8F7109043D644C480 /* Pods_FiMVoiceConvert_Example.framework */,
+				45186495DCC2A94941C08464C8BB2FE7 /* Pods_FiMVoiceConvert_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C5A92AFF43BE48056BA6EA63ED7C27C7 /* Pods-FiMVoiceConvert_Example */ = {
@@ -278,47 +277,25 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DC947698808DE3F1F169BFADBBA470E7 /* Development Pods */,
+				4715C62E9455F7998B0B53317E1D0FFF /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				8DA15FCDBC18993F92BEA4423820BC5C /* Products */,
+				BD686B652B4449315A9800A0CB4E106A /* Products */,
 				17DAE8CC7144B42C78E1FDE2A37478CA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DC947698808DE3F1F169BFADBBA470E7 /* Development Pods */ = {
+		E964BDFBEB551542CB32871FE0268141 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AC45AAD41167CD8643617FC4C7BFD1F /* FiMVoiceConvert */,
+				764BDB1A04E5C79FAD43784EF4580923 /* libopencore-amrnb.a */,
+				9E3D2ACF9B495756A6A74DE30FB5B896 /* libopencore-amrwb.a */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		10A6A2F20B2C722F9B93C0B3B01FEDE0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D9D9A119A7745CE11FC246C7B7EF5B5 /* Pods-FiMVoiceConvert_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20F95AE1C918F07ACDFC4A6C16B77306 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D6378C1EA6215DE93BB3AEB7B936C81 /* amrFileCodec.h in Headers */,
-				8EEEB288F25EC0204209186CC015B25A /* dec_if.h in Headers */,
-				764E9FF10F35E553E93B373EEFDE5242 /* EMVoiceConverter.h in Headers */,
-				0A9B081CA895B0D4DDE112904C85D896 /* FiMVoiceConvert-umbrella.h in Headers */,
-				F8BBEA06B97DE4510AF200BA6E18FA48 /* if_rom.h in Headers */,
-				A6864BAC0879AAC396B97E66A642C964 /* interf_dec.h in Headers */,
-				9A456E39D153D9F29940CC4A20311386 /* interf_enc.h in Headers */,
-				A22DB139BFCA511CE0A5689E0E40D496 /* wav.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E2FB35499E212153A9C3C328CBA7AE1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,40 +304,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		454298ACB52DE5578A7ED241B5B676DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204585A02B42BEE6DFE831FD3FEAF69B /* Pods-FiMVoiceConvert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AC4F408206CE5715E0AB8D8B8F2815 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D17F41A9735200784DDDE82BE8E1FA7 /* amrFileCodec.h in Headers */,
+				1BC56505922E1FF5F71BB44193AC670A /* dec_if.h in Headers */,
+				53B6144E6FD2E7E2D086C38173572924 /* EMVoiceConverter.h in Headers */,
+				D1FE873D28990B40A99674444AC63BFA /* FiM-VoiceConvert-umbrella.h in Headers */,
+				5471E5AB0017F0CCD80DC7210BF00D93 /* if_rom.h in Headers */,
+				FC4CA67394102FCDFC9467E567DB39E9 /* interf_dec.h in Headers */,
+				EFFC8082A1619363B2DE6CA18F0303C8 /* interf_enc.h in Headers */,
+				0C0EDB6460902F3EC017FDD4AB828F23 /* wav.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D14E6D85B434154414BEDF022ACA9FB /* FiMVoiceConvert */ = {
+		2E184FCEBC6FC5E001FBBAE25D32972D /* FiM-VoiceConvert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB79AA92A7787CAD9DEDB786C3CCF082 /* Build configuration list for PBXNativeTarget "FiMVoiceConvert" */;
+			buildConfigurationList = 6DB08068B1C9176F18C2CE8B5064CFDD /* Build configuration list for PBXNativeTarget "FiM-VoiceConvert" */;
 			buildPhases = (
-				20F95AE1C918F07ACDFC4A6C16B77306 /* Headers */,
-				795D00BBFD007F7C1B8630AF5DCC16F3 /* Sources */,
-				04A5AAAB3A9BA8C33333916083D03819 /* Frameworks */,
-				72A7514CC41AD66001F94AC76CBBECCC /* Resources */,
+				86AC4F408206CE5715E0AB8D8B8F2815 /* Headers */,
+				F22085D5DFA8B64F18C2F9A6425A1F7C /* Sources */,
+				9DC3DAD857823ADF9A18AB71E543D768 /* Frameworks */,
+				A4217DD002B3154CCEDC68B7E9D42462 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FiMVoiceConvert;
-			productName = FiMVoiceConvert;
-			productReference = F1728759CC2E8979D3EEF49B67AC7F63 /* FiMVoiceConvert.framework */;
+			name = "FiM-VoiceConvert";
+			productName = "FiM-VoiceConvert";
+			productReference = 25C52162A576B95BF24B419FE4C20576 /* FiM_VoiceConvert.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		39F63313DB749A71B9B337D3E16399DD /* Pods-FiMVoiceConvert_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACEF79FCEC0BEAC2B0957372C6A1CEC1 /* Build configuration list for PBXNativeTarget "Pods-FiMVoiceConvert_Example" */;
+			buildConfigurationList = F8E34A2E2E2391E182836B66FD3C677D /* Build configuration list for PBXNativeTarget "Pods-FiMVoiceConvert_Example" */;
 			buildPhases = (
-				10A6A2F20B2C722F9B93C0B3B01FEDE0 /* Headers */,
-				7F09CB8EC44F1E2A31BE33D7584CB1FA /* Sources */,
-				78DD39895E60AFB3B60700D84547125D /* Frameworks */,
-				36F22EA90F2400E72E08B70B41EB41DE /* Resources */,
+				454298ACB52DE5578A7ED241B5B676DE /* Headers */,
+				ECD76850280E4BAE438262ECCDF7538F /* Sources */,
+				243568ADE51869F6CB51E6D2A8256668 /* Frameworks */,
+				2972F357279BE94C8F1F6E1A9A6EB870 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				891EC0CEBF276D7533C37CFA4F4E5967 /* PBXTargetDependency */,
+				11D19DEDF60281CB12AE8D00FF3DEF34 /* PBXTargetDependency */,
 			);
 			name = "Pods-FiMVoiceConvert_Example";
 			productName = "Pods-FiMVoiceConvert_Example";
@@ -404,11 +404,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8DA15FCDBC18993F92BEA4423820BC5C /* Products */;
+			productRefGroup = BD686B652B4449315A9800A0CB4E106A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D14E6D85B434154414BEDF022ACA9FB /* FiMVoiceConvert */,
+				2E184FCEBC6FC5E001FBBAE25D32972D /* FiM-VoiceConvert */,
 				39F63313DB749A71B9B337D3E16399DD /* Pods-FiMVoiceConvert_Example */,
 				B1386050ED2A118BFE4C6527B781C7C1 /* Pods-FiMVoiceConvert_Tests */,
 			);
@@ -416,14 +416,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		36F22EA90F2400E72E08B70B41EB41DE /* Resources */ = {
+		2972F357279BE94C8F1F6E1A9A6EB870 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72A7514CC41AD66001F94AC76CBBECCC /* Resources */ = {
+		A4217DD002B3154CCEDC68B7E9D42462 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,75 +448,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		795D00BBFD007F7C1B8630AF5DCC16F3 /* Sources */ = {
+		ECD76850280E4BAE438262ECCDF7538F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				560398896402EC3A4C684F9B88D7A750 /* amrFileCodec.mm in Sources */,
-				F76C623EA178041F43E0983CEBB9654D /* EMVoiceConverter.mm in Sources */,
-				CA391FF7DFCF893926757867B00A7FA6 /* FiMVoiceConvert-dummy.m in Sources */,
-				AB21FE786B548BA5FF0BA5BC3D481261 /* wav.mm in Sources */,
+				632B74FB0564F1C84ECA2E10FDBAF44D /* Pods-FiMVoiceConvert_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F09CB8EC44F1E2A31BE33D7584CB1FA /* Sources */ = {
+		F22085D5DFA8B64F18C2F9A6425A1F7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D7D3D6B007BE0BB81B595855FD26E8 /* Pods-FiMVoiceConvert_Example-dummy.m in Sources */,
+				4B38562B02323CB80413CD066820A3FA /* amrFileCodec.mm in Sources */,
+				1AA0ED0CBAB5D034CF71C9C6A32AB848 /* EMVoiceConverter.mm in Sources */,
+				FF6A3FD941CF7AF3FD5137B1F6634846 /* FiM-VoiceConvert-dummy.m in Sources */,
+				4F5A3A7A91304BC8D5893C3CA9811730 /* wav.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		11D19DEDF60281CB12AE8D00FF3DEF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FiM-VoiceConvert";
+			target = 2E184FCEBC6FC5E001FBBAE25D32972D /* FiM-VoiceConvert */;
+			targetProxy = D93490417F0C6599B6A86636342A38E7 /* PBXContainerItemProxy */;
+		};
 		82C930DA5E2D1724B0E36F62BDC12342 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FiMVoiceConvert_Example";
 			target = 39F63313DB749A71B9B337D3E16399DD /* Pods-FiMVoiceConvert_Example */;
 			targetProxy = 6FD9DB81DED0AB522E107E67BC520FC9 /* PBXContainerItemProxy */;
 		};
-		891EC0CEBF276D7533C37CFA4F4E5967 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FiMVoiceConvert;
-			target = 0D14E6D85B434154414BEDF022ACA9FB /* FiMVoiceConvert */;
-			targetProxy = 09DBD91402A714F16BE63CCA9E77CC61 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		19C7061F57CE8E0DEA3BB291C3CAE95A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1FB2DEA5390A2C6441451D0B91E7B99 /* FiMVoiceConvert.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FiMVoiceConvert/FiMVoiceConvert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FiMVoiceConvert/FiMVoiceConvert-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FiMVoiceConvert/FiMVoiceConvert.modulemap";
-				PRODUCT_MODULE_NAME = FiMVoiceConvert;
-				PRODUCT_NAME = FiMVoiceConvert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -570,8 +538,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -675,7 +642,70 @@
 			};
 			name = Debug;
 		};
-		C0C8B9F8EAD41B4FEB2A431DEEE879D5 /* Release */ = {
+		91E655F4D6E2C816BB007BDEDCCF7943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E7EEED88DED4C65B6DB1064FF09828 /* FiM-VoiceConvert.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FiM-VoiceConvert/FiM-VoiceConvert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FiM-VoiceConvert/FiM-VoiceConvert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FiM-VoiceConvert/FiM-VoiceConvert.modulemap";
+				PRODUCT_MODULE_NAME = FiM_VoiceConvert;
+				PRODUCT_NAME = FiM_VoiceConvert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99593C8B29BB974E2A8147711871C715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716DCE2507F2EC6A309B5C14FCCA3941 /* FiM-VoiceConvert.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FiM-VoiceConvert/FiM-VoiceConvert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FiM-VoiceConvert/FiM-VoiceConvert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FiM-VoiceConvert/FiM-VoiceConvert.modulemap";
+				PRODUCT_MODULE_NAME = FiM_VoiceConvert;
+				PRODUCT_NAME = FiM_VoiceConvert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A111AA9948D9C02D0C82655D22103AAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A4B131F0BADA4C4DA94826D762FA8A1 /* Pods-FiMVoiceConvert_Example.release.xcconfig */;
 			buildSettings = {
@@ -708,6 +738,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C6F43F21434FAA45D6226537665D0354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E475007F0C59EFCF5CA0378F018C35 /* Pods-FiMVoiceConvert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FiMVoiceConvert_Example/Pods-FiMVoiceConvert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FiMVoiceConvert_Example/Pods-FiMVoiceConvert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D54C408F9818FF4C8A49C788396F336B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -742,70 +805,6 @@
 			};
 			name = Debug;
 		};
-		D782D11663EDAF2CBAA13E00446A008F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E52CCB4795D996E003AB56C5BD4254B /* FiMVoiceConvert.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FiMVoiceConvert/FiMVoiceConvert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FiMVoiceConvert/FiMVoiceConvert-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FiMVoiceConvert/FiMVoiceConvert.modulemap";
-				PRODUCT_MODULE_NAME = FiMVoiceConvert;
-				PRODUCT_NAME = FiMVoiceConvert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FA680AE86944DB2DDE40692C73A7173F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E475007F0C59EFCF5CA0378F018C35 /* Pods-FiMVoiceConvert_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FiMVoiceConvert_Example/Pods-FiMVoiceConvert_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FiMVoiceConvert_Example/Pods-FiMVoiceConvert_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -827,20 +826,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACEF79FCEC0BEAC2B0957372C6A1CEC1 /* Build configuration list for PBXNativeTarget "Pods-FiMVoiceConvert_Example" */ = {
+		6DB08068B1C9176F18C2CE8B5064CFDD /* Build configuration list for PBXNativeTarget "FiM-VoiceConvert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA680AE86944DB2DDE40692C73A7173F /* Debug */,
-				C0C8B9F8EAD41B4FEB2A431DEEE879D5 /* Release */,
+				91E655F4D6E2C816BB007BDEDCCF7943 /* Debug */,
+				99593C8B29BB974E2A8147711871C715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB79AA92A7787CAD9DEDB786C3CCF082 /* Build configuration list for PBXNativeTarget "FiMVoiceConvert" */ = {
+		F8E34A2E2E2391E182836B66FD3C677D /* Build configuration list for PBXNativeTarget "Pods-FiMVoiceConvert_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D782D11663EDAF2CBAA13E00446A008F /* Debug */,
-				19C7061F57CE8E0DEA3BB291C3CAE95A /* Release */,
+				C6F43F21434FAA45D6226537665D0354 /* Debug */,
+				A111AA9948D9C02D0C82655D22103AAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

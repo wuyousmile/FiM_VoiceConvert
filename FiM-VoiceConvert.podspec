@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'FiMVoiceConvert'
+    s.name             = 'FiM-VoiceConvert'
     s.version          = '0.1.0'
-    s.summary          = 'A short description of FiMVoiceConvert.'
+    s.summary          = 'A short description of FiM-VoiceConvert.'
     
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
     iOS音频文件转换.
     DESC
     
-    s.homepage         = 'https://github.com/FirstMen/FiMVoiceConvert'
+    s.homepage         = 'https://github.com/FirstMen/FiM-VoiceConvert'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'zhuyuhui434@gmail.com' => 'zhuyuhui434@gmail.com' }
-    s.source           = { :git => 'https://github.com/FirstMen/FiMVoiceConvert.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/FirstMen/FiM-VoiceConvert.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '8.0'
     
-    # s.source_files = 'FiMVoiceConvert/Classes/**/*'
+    # s.source_files = 'FiM-VoiceConvert/Classes/**/*'
     
     # s.resource_bundles = {
-    #   'FiMVoiceConvert' => ['FiMVoiceConvert/Assets/*.png']
+    #   'FiMVoiceConvert' => ['FiM-VoiceConvert/Assets/*.png']
     # }
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
@@ -41,11 +41,11 @@ Pod::Spec.new do |s|
     # s.dependency 'AFNetworking', '~> 2.3'
     
     # avoid compile error when using 'use frameworks!',because this header is c++, but in unbrellar header don't know how to compile, there's no '.mm' file in the context.
-    s.private_header_files = 'FiMVoiceConvert/**/amrwapper/wav.h'
-    s.source_files =  'FiMVoiceConvert/**/*.{h,m,mm}'
+    s.private_header_files = 'FiM-VoiceConvert/**/amrwapper/wav.h'
+    s.source_files =  'FiM-VoiceConvert/**/*.{h,m,mm}'
     s.vendored_libraries = [
-    'FiMVoiceConvert/**/libopencore-amrnb.a',
-    'FiMVoiceConvert/**/libopencore-amrwb.a',
+    'FiM-VoiceConvert/**/libopencore-amrnb.a',
+    'FiM-VoiceConvert/**/libopencore-amrwb.a',
     ]
     s.frameworks =  'AVFoundation'
     s.libraries  = 'stdc++'

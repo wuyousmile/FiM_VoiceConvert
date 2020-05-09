@@ -1,9 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FiMVoiceConvert"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FiM-VoiceConvert"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FiMVoiceConvert/FiMVoiceConvert.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FiM-VoiceConvert/FiM_VoiceConvert.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../FiMVoiceConvert/Classes/opencore-amrnb" "${PODS_ROOT}/../../FiMVoiceConvert/Classes/opencore-amrwb"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"stdc++" -framework "AVFoundation" -framework "FiMVoiceConvert"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../FiM-VoiceConvert/Classes/opencore-amrnb" "${PODS_ROOT}/../../FiM-VoiceConvert/Classes/opencore-amrwb"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"stdc++" -framework "AVFoundation" -framework "FiM_VoiceConvert"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
