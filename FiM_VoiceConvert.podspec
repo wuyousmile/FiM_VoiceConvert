@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'FiM-VoiceConvert'
-    s.version          = '0.1.0'
-    s.summary          = 'A short description of FiM-VoiceConvert.'
+    s.name             = 'FiM_VoiceConvert'
+    s.version          = '666.0.0.1.0'
+    s.summary          = 'A short description of FiM_VoiceConvert.'
     
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,10 +30,10 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '8.0'
     
-    # s.source_files = 'FiM-VoiceConvert/Classes/**/*'
+    # s.source_files = 'FiM_VoiceConvert/Classes/**/*'
     
     # s.resource_bundles = {
-    #   'FiMVoiceConvert' => ['FiM-VoiceConvert/Assets/*.png']
+    #   'FiMVoiceConvert' => ['FiM_VoiceConvert/Assets/*.png']
     # }
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
@@ -41,11 +41,11 @@ Pod::Spec.new do |s|
     # s.dependency 'AFNetworking', '~> 2.3'
     
     # avoid compile error when using 'use frameworks!',because this header is c++, but in unbrellar header don't know how to compile, there's no '.mm' file in the context.
-    s.private_header_files = 'FiM-VoiceConvert/**/amrwapper/wav.h'
-    s.source_files =  'FiM-VoiceConvert/**/*.{h,m,mm}'
+    s.private_header_files = 'FiM_VoiceConvert/**/amrwapper/wav.h'
+    s.source_files =  'FiM_VoiceConvert/**/*.{h,m,mm}'
     s.vendored_libraries = [
-    'FiM-VoiceConvert/**/libopencore-amrnb.a',
-    'FiM-VoiceConvert/**/libopencore-amrwb.a',
+    'FiM_VoiceConvert/**/libopencore-amrnb.a',
+    'FiM_VoiceConvert/**/libopencore-amrwb.a',
     ]
     s.frameworks =  'AVFoundation'
     s.libraries  = 'stdc++'

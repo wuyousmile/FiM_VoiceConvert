@@ -37,7 +37,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>FiM-VoiceConvert</string>
+			<string>FiM_VoiceConvert</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

@@ -22,7 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AFAAB2F424668491006E77FB /* FiM-VoiceConvert.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFAAB2F324668491006E77FB /* FiM-VoiceConvert.podspec */; };
+		AFAAB2FE2466B81D006E77FB /* FiM_VoiceConvert.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFAAB2FD2466B81D006E77FB /* FiM_VoiceConvert.podspec */; };
 		D32F324277D68D96379ACF66 /* Pods_FiMVoiceConvert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC36C9BEF85D6D660B644FB /* Pods_FiMVoiceConvert_Example.framework */; };
 		F681DE199D401732068E739C /* Pods_FiMVoiceConvert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD515D7BF8ABC631AD83676E /* Pods_FiMVoiceConvert_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96555CB160218BB428811525 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B3CEF9E1EFAA0E78B77B7BA /* Pods-FiMVoiceConvert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiMVoiceConvert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FiMVoiceConvert_Tests/Pods-FiMVoiceConvert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFAAB2F324668491006E77FB /* FiM-VoiceConvert.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "FiM-VoiceConvert.podspec"; path = "../FiM-VoiceConvert.podspec"; sourceTree = "<group>"; };
+		AFAAB2FD2466B81D006E77FB /* FiM_VoiceConvert.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FiM_VoiceConvert.podspec; path = ../FiM_VoiceConvert.podspec; sourceTree = "<group>"; };
 		BEC36C9BEF85D6D660B644FB /* Pods_FiMVoiceConvert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiMVoiceConvert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD515D7BF8ABC631AD83676E /* Pods_FiMVoiceConvert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiMVoiceConvert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2BC5E3CCD171288BFC6137 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				AFAAB2F324668491006E77FB /* FiM-VoiceConvert.podspec */,
+				AFAAB2FD2466B81D006E77FB /* FiM_VoiceConvert.podspec */,
 				96555CB160218BB428811525 /* README.md */,
 				DF2BC5E3CCD171288BFC6137 /* LICENSE */,
 			);
@@ -278,8 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFAAB2F424668491006E77FB /* FiM-VoiceConvert.podspec in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				AFAAB2FE2466B81D006E77FB /* FiM_VoiceConvert.podspec in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -348,7 +348,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FiMVoiceConvert_Example/Pods-FiMVoiceConvert_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FiM-VoiceConvert/FiM_VoiceConvert.framework",
+				"${BUILT_PRODUCTS_DIR}/FiM_VoiceConvert/FiM_VoiceConvert.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

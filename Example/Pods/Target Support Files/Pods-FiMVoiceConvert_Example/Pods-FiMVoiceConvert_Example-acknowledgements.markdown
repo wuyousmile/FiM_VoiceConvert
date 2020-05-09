@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## FiM-VoiceConvert
+## FiM_VoiceConvert
 
 Copyright (c) 2020 zhuyuhui434@gmail.com <zhuyuhui434@gmail.com>
 

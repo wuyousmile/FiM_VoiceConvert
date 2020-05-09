@@ -1,6 +1,0 @@
-framework module FiM_VoiceConvert {
-  umbrella header "FiM-VoiceConvert-umbrella.h"
-
-  export *
-  module * { export * }
-}
