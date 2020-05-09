@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'FiM_VoiceConvert'
-    s.version          = '666.0.0.1.1'
+    s.version          = '666.0.0.1.2'
     s.summary          = 'A short description of FiM_VoiceConvert.'
     
     # This description is used to generate tags and improve search results.
@@ -52,3 +52,4 @@ Pod::Spec.new do |s|
 
 
 end
+# pod trunk push FiM_VoiceConvert.podspec --use-libraries --verbose --allow-warnings
